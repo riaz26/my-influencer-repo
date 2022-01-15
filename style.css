@@ -27,14 +27,10 @@ body{
     margin-top: 140px;
     margin-bottom: 250px;
     margin-left: 190px;
-    
 }
 .influencer-journey{
     width: 582px;
     height: 270px;
-    
-    
-    /* margin-top: 230px; */
 }
 .influencer-journey h1{
     font-size: 52px;
@@ -214,3 +210,8 @@ body{
     padding-left: 20px;
 }
 
+/* media quaries */
+
+@media only screen and (max-width: 688px) {
+    
+}
