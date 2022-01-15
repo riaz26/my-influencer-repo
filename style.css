@@ -1,0 +1,216 @@
+/* google font - poppins */
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin: 0px;
+}
+
+.heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 190px;
+    margin-top: 87px;
+}
+
+
+/*-------------------------
+   journey as a influencer 
+----------------------------*/
+
+
+
+.influencer{
+    display: flex;
+    margin-top: 140px;
+    margin-bottom: 250px;
+    margin-left: 190px;
+    
+}
+.influencer-journey{
+    width: 582px;
+    height: 270px;
+    
+    
+    /* margin-top: 230px; */
+}
+.influencer-journey h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.influencer-journey p{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.link-button{
+    width: 220px;
+    height: 50px;
+    background-color: #E02C6D;
+    padding-left: 40px;
+    padding-top: 13px;
+    border-radius: 41px;
+    
+    
+}
+.link-button .fa-arrow-right{
+    color: white;
+    width: 24px;
+    height: 24px;
+    padding-left: 8px;
+}
+.influencer-journey a{
+    width: 116px;
+    height: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+}
+.influencer-image img{
+    width: 460px;
+    height: 434px;
+    padding-left: 140px;
+    overflow: hidden;
+}
+.influencer-image:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
+/* influencer journey section end */
+
+.container{
+    width: 1047px;
+    height: 1662px;
+    padding: 0px 20px 0px 240px;
+   
+}
+.container h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 390px;
+    margin-bottom: 30px;
+}
+.populer-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.collections{
+    background-color: white;
+    width: 329px;
+    height: 476px;
+    box-shadow: 10px 5px 40px rgb(226, 224, 224);
+    border-radius: 20px;
+}
+.collections .single-collection img{
+    width: 300px;
+    height: 256px;
+    padding-top: 17px;
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+
+
+}
+.collection-info h2{
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 14px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.collection-info p{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-left: 14px;
+}
+
+.star-icon{
+    padding-left: 14px;
+}
+.star-icon span{
+    padding-left: 8px;
+}
+.fa-star{
+    color: #FB8200;
+    width: 16px;
+    height: 16px;
+}
+.collection-info h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    line-height: 25px;
+    padding-left: 14px;
+    margin-top: 2px;
+}
+.second-link-button{
+    padding-left: 942px;
+    padding-top: 50px;
+    
+}
+.second-link-button a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #E02C6D;
+}
+.second-link-button .fa-arrow-right{
+    width: 16px;
+    height: 14px;
+    padding-left: 8px;
+    color: #E02C6D;
+}
+
+/* footer section start */
+
+.footers{
+    height: 230px;
+    background-color: rgb(1, 1, 51);
+    
+}
+.footer-section{
+    width: 280px;
+    height: 160px;
+    color: white;
+    margin-left: 589px;
+    padding-top: 40px;
+}
+.first-footer{
+    margin-bottom: 16px;
+}
+.footer-section h1{
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.footer-section footer{
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.footer-section .footer-first{
+    padding-left: 6px;
+}
+.footer-section .footer-second{
+    padding-left: 70px;
+}
+.social-icon{
+    margin-left: 43px;
+}
+.social-icon i{
+    padding-left: 20px;
+}
+
